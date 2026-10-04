@@ -1,0 +1,52 @@
+.redtext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt;
+ font-weight: none; color: #992B2B }
+
+FONT { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt;
+ font-weight: none; color: #606760 }
+
+TD { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt;
+ font-weight: none; color: #606760; line-height: 13px; text-indent: 0px}
+
+DIV { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt;
+ font-weight: none; color: #606760 }
+
+.date { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt;
+ font-weight: none; color: #C8CED2; line-height: 13px; text-indent: 0px}
+ 
+.topic { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt;
+ font-weight: bold; color: #606760; line-height: 13px; text-indent: 0px}
+
+.vic { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt;
+ font-weight: none; color: #007524; line-height: 13px; text-indent: 0px}
+ 
+.def { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt;
+ font-weight: none; color: #DF0029; line-height: 13px; text-indent: 0px}
+
+.copy { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt;
+ font-weight: bold; color: #D9D9D9; line-height: 13px; text-indent: 0px}
+ 
+.table { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt;
+ font-weight: bold; color: #FFFFFF; line-height: 13px; text-indent: 0px}
+
+.input { font-family: verdana,sans-serif; font-size: 9px; border-style: solid; border-width: 1px; border-color: #D9D9D9; color: #606760; background-color: #FBFBFB; }
+
+.drop { font-family: verdana,sans-serif; font-size: 10px; border-style: solid; border-width: 1px; border-color: black; color: #606760; background: white; background-color: #FFFFFF; }
+
+.button { font-family: verdana,sans-serif; font-size: 10px; border-style: solid; border-width: 1px; border-color: #D9D9D9; color: #606760; background-color: #EBEAEA; font-weight: bold; }
+
+A:link { text-decoration: underline; color: #606760; font-weight: none }
+
+A:visited { text-decoration: underline; color: #606760; font-weight: none }
+
+A:hover { text-decoration: none; color: #000000; font-weight: none }
+
+A:active { text-decoration: none; color: black font-weight: none } 
+
+body { scrollbar-face-color: #7E7E8E; 
+scrollbar-shadow-color: #7E7E8E;
+scrollbar-highlight-color: #7E7E8E;
+scrollbar-3dlight-color: #7E7E8E;
+scrollbar-darkshadow-color: #7E7E8E;
+scrollbar-track-color: #8D8D99;
+scrollbar-arrow-color: #000000; }
+

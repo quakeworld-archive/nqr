@@ -1,0 +1,591 @@
+
+<html>
+<head>
+<title>Nations Quake Rank [v 2.0]</title>
+<link rel="stylesheet" href="css/nqr.css">
+<link rel="shortcut icon" href="icon.ico">
+<script language="JavaScript">
+<!--
+function confirmLink(theLink, thePlayer)
+{
+    var confirmMsg = 'Delete this player?';
+    var is_confirmed = confirm(confirmMsg + '\n\n Player:   ' + thePlayer);
+    if (is_confirmed) {
+        theLink.href += '&is_js_confirmed=1';
+    }
+
+    return is_confirmed;
+} // end of the 'confirmLink()' function
+-->
+</script>
+</head>
+
+<body bgcolor="#E2ECF1" leftmargin="100px" topmargin="0"> 
+<body bgcolor="#E2ECF1" leftmargin="100px" topmargin="0">
+
+<table border="0" width="758px" height="100%" cellspacing="0" cellpadding="0">
+<tr>
+
+	<td width="150px" height="45px" valign="top">&nbsp;
+	
+	</td>
+
+	<td width="5px" height="150px" background="gfx/bg-left.gif">&nbsp;
+	 
+	</td>
+	<td width="448px" height="150px" background="gfx/nqr-top.gif" valign="top">&nbsp;
+	
+	</td>
+	<td width="5px" height="150px" background="gfx/bg-right.gif">&nbsp;
+	 
+	</td>
+	
+	<td width="150px" height="45px" valign="top">&nbsp;
+	
+	</td>
+	
+</tr>
+<tr>
+
+	<td width="150px" height="56px" valign="top">&nbsp;
+	
+	</td>
+
+	<td width="5px" height="56px" background="gfx/bg-left.gif">&nbsp;
+	 
+	</td>
+	<td width="448px" height="56px" background="gfx/bg-menu.gif" bgcolor="#E2ECF1">
+		</td>
+	<td width="5px" height="56px" background="gfx/bg-right.gif">&nbsp;
+	 
+	</td>
+	
+	<td width="150px" height="56px" valign="top">&nbsp;
+	
+	</td>
+	
+</tr>
+<tr>
+   
+   <td width="150px" valign="top">
+	<table border="0" width="100%" cellspacing="1" cellpadding="0">
+	<tr>
+		<td width="5%">&nbsp;
+		
+		</td>
+		<td bgcolor="#C4D1D7">
+		&nbsp;<img src="gfx/arrow.gif"><b>The League</b>
+		</td>
+		<td width="5%">&nbsp;
+		
+		</td>
+	</tr>
+	<tr>
+		<td width="5%">&nbsp;
+		
+		</td>
+		<td>
+		&nbsp;<a href="./">News</a><br>
+		&nbsp;<a href="clans.html">Clans</a><br>
+		&nbsp;<a href="ranking.html">Ranking</a><br>
+		&nbsp;<a href="fragrank.html">Fragrank</a><br>
+		&nbsp;<a href="playoffs.html">Playoffs</a><br>
+		&nbsp;<a href="games.html">Played games</a><br>
+		</td>
+		<td width="5%">&nbsp;
+		
+		</td>
+	</tr>
+	<tr>
+		<td width="5%">&nbsp;
+		
+		</td>
+		<td>&nbsp;
+		
+		</td>
+		<td width="5%">&nbsp;
+		
+		</td>
+	</tr>
+	<tr>
+		<td width="5%">&nbsp;
+		
+		</td>
+		<td bgcolor="#C4D1D7">
+		&nbsp;<img src="gfx/arrow.gif"><b>The Sections</b>
+		</td>
+		<td width="5%">&nbsp;
+		
+		</td>
+	</tr>
+	<tr>
+		<td width="5%">&nbsp;
+		
+		</td>
+		<td>
+		&nbsp;<a href="rules.html">Rules</a><br>
+      &nbsp;<a href="information.html">Information</a><br>
+      &nbsp;<a href="champions.html">Older champions</a><br>
+		<!-- &nbsp;Stats<br> -->
+		&nbsp;<a href="crew.html">Crew</a><br>
+		</td>
+		<td width="5%">&nbsp;
+		
+		</td>
+	</tr>
+	<!-- archive: seasons --><tr><td width="5%">&nbsp;</td><td>&nbsp;</td><td width="5%">&nbsp;</td></tr><tr><td width="5%">&nbsp;</td><td bgcolor="#C4D1D7">&nbsp;<img src="gfx/arrow.gif"><b>Seasons</b></td><td width="5%">&nbsp;</td></tr><tr><td width="5%">&nbsp;</td><td>&nbsp;<a href="./">NQR Season 2</a><br>&nbsp;<a href="../nqr3/">NQR Season 3</a><br>&nbsp;<a href="../nqr4/">NQR Season 4</a><br>&nbsp;<a href="../nqr5/">NQR Season 5</a><br>&nbsp;<a href="../nqr6/">NQR Season 6</a><br>&nbsp;<a href="../nqr7/">NQR Season 7</a><br>&nbsp;<a href="../nqr8/">NQR Season 8</a><br>&nbsp;<a href="../nqr9/">NQR Season 9</a><br>&nbsp;<a href="../nqr10/">NQR Season 10</a><br>&nbsp;<a href="../nqr11/">NQR Season 11</a><br>&nbsp;<a href="../summer/">NQR Summercup</a><br>&nbsp;<a href="../ctf1/">NQR CTF Season 1</a><br>&nbsp;<a href="../na/">NQR North America Season 1</a><br></td><td width="5%">&nbsp;</td></tr></table><hr noshade color=#C3CDD2 width=90%><img src="../gfx/logo_gs.gif" border="0">	</td>
+   
+	<td width="5px" height="150px" background="gfx/bg-left.gif">&nbsp;
+	 
+	</td>
+	
+	<td width="448px" height="100%" valign="top" bgcolor="#FFFFFF">
+	<table border="0" width="100%" height="100%" cellspacing="5px" cellpadding="0">
+	<tr>
+	
+		<td valign="top">
+		<span class="topic">Rules</span><br>
+		<br>
+
+		
+		<li><b><a href="rules.html#introduction">Introduction</a></b><br>
+		<li><b><a href="rules.html#league_system">League system</a></b><br>
+		<li><b><a href="rules.html#your_team">Your team</a></b><br>
+		<li><b><a href="rules.html#cheating">Cheating</a></b><br>
+		<li><b><a href="rules.html#fullbrights">Fullbrights</a></b><br>
+		    <li><b><a href="rules.html#match_settings">Game settings</a></b><br>
+		    <li><b><a href="rules.html#demo">Record Demo</a></b><br>
+		<li><b><a href="rules.html#approved_maps">Approved maps</a></b><br>
+		    <li><b><a href="rules.html#scheduling_matches">Scheduling games</a></b><br>
+		    <li><b><a href="rules.html#servers">Server issue</a></b><br>
+            <li><b><a href="rules.html#proxies_and_clients">Proxies and clients</a></b><br>
+			<li><b><a href="rules.html#decider">Draw games / Decider map</a></b><br>
+		    <li><b><a href="rules.html#reporting">Reporting games</a></b><br>
+              <br>
+              <br>
+              <br>
+              <hr noshade color="#E6E6E6" width="98%">
+              <br>
+              <br>
+              <br>
+              <img src="gfx/arrow.gif"><b><a name="introduction">Introduction</a></b><a href="rules.html#top"><img src="gfx/to_top.gif" border="0"></a><br>
+              Nations Quake Rank              isn’t about money, it’s about have fun playing this god given game 
+              QuakeWorld. And to be sure all the teams can play eachother in a 
+              fair enviroment, we need to have theese rules/requirements.<br>
+              <br>
+              <hr noshade color="#E6E6E6" width="98%">
+              <br>
+              <img src="gfx/arrow.gif"><b><a name="league_system">League system</a></b><a href="rules.html#top"><img src="gfx/to_top.gif" border="0"></a><br>
+              Nations Quake Rank              is running according to a combined system of <a href="http://www.clanbase.com" target="_blank">Clanbase</a> 
+              and the 1on1 league <a href="http://www.koth.net" target="_blank">KOTH</a>. 
+              When a new season starts each team is given 1000 points to start 
+              off with. When winning a game you will be given 10% of the enemy 
+              clan's points. Note that you can't lose any points by losing a game. 
+              So if you enter 
+              Nations Quake Rank              and play alot of games without winning a single one, you will still 
+              have 1000 points. If you beat a clan that has 2500 points the equation 
+              could look like this;<br>
+              <br>
+              2500 * 0.10 = 250<br>
+              <br>
+              or<br>
+              <br>
+              2500 / 10 = 250<br>
+              <br>
+              If a clan is ranked pretty high in the ranking and beats a clan 
+              with low points it will not gain them much points, that should incourage 
+              the better clans not to mash the 'smaller' clans for easy points. 
+              Every season is streches over a time of two months, you are only 
+              allowed to play the same clan twice in each season. After the season 
+              is finnished, there will be playoffs, the 16 best ranked clans go 
+              to the playoffs. Your team can JOIN nqr2_the 
+              Nations Quake Rank              at anytime in an ongoing season, however you cannot JOIN nqr2_when the 
+              playoff’s have started. Then you’ll have to wait until the playoffs 
+              have been played and the new season started. The playoffs will work 
+              as following;<br>
+              <br>
+              #1 vs. #16<br>
+              #2 vs. #15<br>
+              #3 vs. #14<br>
+              etc..<br>
+              <br>
+              <hr noshade color="#E6E6E6" width="98%">
+              <br>
+              <img src="gfx/arrow.gif"><b><a name="your_team">Your team</a></b><a href="rules.html#top"><img src="gfx/to_top.gif" border="0"></a><br>
+              Your team needs to have a working homepage with updated info about 
+              all active clanmembers. There are no limit to the number of players 
+              in one team. Teams not fulfilling theese requirements can be forbidden 
+              to enter the 
+              Nations Quake Rank              . When the season is underway you can do some changes to your team 
+              lineup, you are allowed to add two members to your teams roster, 
+              but no more then two! You can only do this roster add during the 
+              regular season, no changes are allowed when the playoffs have started! 
+              All teams are expected to behave properly and treat the opponents 
+              and admins with respect. Teams can be removed from the league for 
+              repeated offenses and teams with a known history of trouble can 
+              be denied participation.<br>
+              <br>
+              <hr noshade color="#E6E6E6" width="98%">
+              <br>
+              <img src="gfx/arrow.gif"><b><a name="cheating">Cheating</a></b><a href="rules.html#top"><img src="gfx/to_top.gif" border="0"></a><br>
+              Things we consider as cheating.<br>
+              <br>
+              Changed models of any kind! Your proxy must report clean on a f_modified 
+              check, no exceptions.<br>
+              <br>
+              Hacked clients! Recompiled quake-executables or edited clients will 
+              not be tolerated.<br>
+              <br>
+              Speedcheating! Using the qwcl-win98/NT speedbug in order to get 
+              a speedprocent over 99.99% is considered as cheating. Since this 
+              can happen by accident people who are caught with higher % values 
+              will only be asked to reboot and reconnect.<br>
+              <br>
+              Fakenicking, such as regestering a fake clan will not be tolerated 
+              and can lead to serious measures. Also, playing for several teams 
+              who compete in 
+              Nations Quake Rank              is considered cheating.<br>
+              <br>
+              Teams playing from the same location with two players or more (LAN) 
+              are required to notify the admin. The admin can impose restrictions 
+              on spectators of that team (to prevent them from relaying the enemys 
+              position). Teams having players communicating through other means 
+              then in game features or team messages (message mode 2) are required 
+              to notify the admin. This includes the use of the voice communication 
+              capabilities of Qizmo or a similar or other methods. Only the players 
+              currently playing the game are allowed in the voice channel (Qizmo)! 
+              The admin can impose restrictions on spectators of that team.<br>
+              <br>
+              Oo coaching whatsoever from inside the game is allowed, such as; 
+              timing quad, relaying enemy postions. <br>
+              <br>
+              <b>Other offences</b><br>
+              Intentionally dropping from server! Having one or several players 
+              intentionally drop from server during a game without replacing them 
+              in no more than one minutes time can be deemed an offence by the 
+              preciding admin (depending on circumstances).<br>
+              <br>
+              Any way of interfering with the connection of the opposing team 
+              (e.g. by any type of flooding or crashing servers) is obviously 
+              prohibited.<br>
+              <br>
+              Please remember what the game is about, having a good time. Quake 
+              is a gentlemans sport you know!<br>
+              <br>
+              <hr noshade color="#E6E6E6" width="98%">
+              <br>
+              <img src="gfx/arrow.gif"><b><a name="fullbrights">Fullbrights</a></b><a href="rules.html#top"><img src="gfx/to_top.gif" border="0"></a><br>
+              Anyone could tell you that fullbright-skins is one of the most effective 
+              cheats in QuakeWorld. The problem is that the use of fullbright 
+              skins have reached such enormous proportions that the situation 
+              today is more or less that everyone has got them! This means that 
+              it is impractical for us to consider them as cheats as it would 
+              disrupt the way most people play quake today. Also, banning fullbrights 
+              (while theoretically possible with Qizmo-only) would also give a 
+              slight advantage to GL players who can blur map textures and keep 
+              the player skins sharp and crisp.<br>
+              <br>
+              <hr noshade color="#E6E6E6" width="98%">
+              <br>
+              <img src="gfx/arrow.gif"><b><a name="match_settings">Game settings</a></b><a href="rules.html#top"><img src="gfx/to_top.gif" border="0"></a><br>
+              Team: 4on4<br>
+              Timelimit: 20 minutes<br>
+              Overtime: 5 minutes if match is a draw<br>
+              Deathmatch mode: 1<br>
+              Team play mode: 2<br>
+              Spawn model: Kteam, KteamPro or Normal QW<br>
+              Powerups: ON/OFF<br>
+              Discharge: ON<br>
+              <br>
+              <hr noshade color="#E6E6E6" width="98%">
+              <br>
+              <img src="gfx/arrow.gif"><b><a name="demo">Record demo</a></b><a href="rules.html#top"><img src="gfx/to_top.gif" border="0"></a><br>
+              Since NQR ain't requiring an admin as a spectator for each game 
+              it's very important that you ALWAYS record a demo when your clan 
+              plays a game. <br>
+              If there should be any disputes between the clans or anything else 
+              concerning the game, you need to show a demo to prove your point. 
+              <br>
+              <br>
+              <hr noshade color="#E6E6E6" width="98%">
+              <br>
+              <img src="gfx/arrow.gif"><b><a name="approved_maps">Approved maps</a></b><a href="rules.html#top"><img src="gfx/to_top.gif" border="0"></a><br>
+              All original quake maps are allowed. <br>
+              In general you have to play you're home map. Changes can be made 
+              though, if you deside to play another map from the one you have 
+              stated on your clans info here you MUST inform the other clan atleast 
+              2 day ahead of the game. You must also get the map change approved 
+              by an admin. Changes to the map at you're clans info page should 
+              not be miss-used.<br>
+              <br>
+              <hr noshade color="#E6E6E6" width="98%">
+              <br>
+              <img src="gfx/arrow.gif"><b><a name="scheduling_matches">Scheduling 
+              games</a></b><a href="rules.html#top"><img src="gfx/to_top.gif" border="0"></a><br>
+              The 
+              Nations Quake Rank              staff will not pre-schedule any matches, it’s up to the clans to 
+              arrange matches. However, deadlines for the regular season will 
+              be posted. Also deadlines when the playoff games should be finished 
+              will be posted by the 
+              Nations Quake Rank              staff.<br>
+              <br>
+              <hr noshade color="#E6E6E6" width="98%">
+              <br>
+              <img src="gfx/arrow.gif"><b><a name="servers">The Server Issue</a></b><a href="rules.html#top"><img src="gfx/to_top.gif" border="0"></a><br>
+              The matchserver is decided by both teams. A server giving approximately 
+              equal connection conditions should be found. In principle, all maps 
+              are played on the same server. <br>
+              <br>
+              <hr noshade color="#E6E6E6" width="98%">
+              <br>
+              <img src="gfx/arrow.gif"><b><a name="proxies_and_clients">Proxies 
+              and clients</a></b><a href="rules.html#top"><img src="gfx/to_top.gif" border="0"></a><br>
+              1. The only proxys/clients allowed in NQR are Qizmo 2.91 and MQWCL 
+              0.94c (win32) / 0.94b (linux), allowed QuakeWorld clients are versions 
+              2.30 and 2.33. 
+              <p> *concerning qizmo/mqwcl f_checks*<br>
+                <br>
+                2. You have to pass all f_ check commands, such as f_modified, 
+                f_version, f_server, f_speed (see F_check commands explaination).<br>
+                If a player drops after a f_check, the player must be rechecked 
+                when he returns to the server. If an argument should accure between 
+                the clans, then the clans should go to #NQR and get an admin to 
+                come to the server and settle the conflict. Any clan/player that 
+                shows some bad models or other bad settings must change them at 
+                once, failing to do so and an admin may impose restrictions upon 
+                this clan/player, such as giving the other clan a WO or banning 
+                the clan/player from NQR. </p>
+              <p>3. F_check commands explaination.<br>
+                f_speed = This will display the running speed in %. Values over 
+                100% are considered cheating but can also occur on win9x systems 
+                that have not been rebooted for a long time. In this case just 
+                reboot and the speed will be below 100% again.<br>
+                <br>
+                f_modified [x] = This will check for altered models and sounds 
+                in your pak files which could be used for cheating. <br>
+                If a model does not have the original crc size its name will be 
+                reported. If nothing is modified it will report the crc value 
+                over all models. You might specify x which will be added to this 
+                value.<br>
+                <br>
+                f_version = This will report both the version of the proxy used 
+                as well as the operating system. </p>
+              <p> f_server = from the Qizmo readme: &quot;Each qizmo responds 
+                with 'x-&gt;y', where x is a crc of the ip address of the proxy 
+                and y crc of the address where the player is connected to. So 
+                you should get either:player1: x-&gt;y player1: y-&gt;z or player2: 
+                x-&gt;z where x and z should be same for everyone on the server 
+                and y changes for different server side proxies. If this is not 
+                the case, someone might be using a bot or there is something else 
+                in between, e.g. cheapo.&quot;</p>
+              <hr noshade color="#E6E6E6" width="98%">
+              <br>
+              <img src="gfx/arrow.gif"><b><a name="decider">Decider maps </a></b><a href="rules.html#top"><img src="gfx/to_top.gif" border="0"><br>
+              </a>1. If a game is drawed, a decider map will be played. The decider 
+              maps are the following: DM3,DM2,E1M2,E2M2 and E3M3.<br>
+              <br>
+              <ul>
+                <li>If both clans can agree to a decider map that map should be 
+                  played</li>
+                <li>If they can't agree to a map the ^NQR^ bot will be used to 
+                  choose a random map. No clan will then be able to play their 
+                  &quot;home map&quot; a second time. <br>
+                  E.g: Clan A wins on their home map (DM3), Clan B is victourius 
+                  on their home map (E1M2). The clans cannot agree upon a decider 
+                  map, then the bot comes to use. However, the maps DM3 and E1M2 
+                  cannot be picked as a decider map unless both clans agree on 
+                  that. So if the bot says: &quot;DM3 is the decider!&quot; You 
+                  simply do a random pick again untill u get a map that hasen't 
+                  been played already. </li>
+              </ul>
+              <p>2. A log will be runned on #NQR to prevent miss use of the Random 
+                map option. <br>
+                <br>
+              </p>
+              <hr noshade color="#E6E6E6" width="98%">
+              <br>
+              <img src="gfx/arrow.gif"><b><a name="reporting">Reporting games</a></b><a href="rules.html#top"><img src="gfx/to_top.gif" border="0"><br>
+              </a>As soon as a game have been played, the winning team should 
+              report the result to NQR. To report a game you simply login on the 
+              NQR site with either your master account or your regular account. 
+              There you will be able to report your game. <br>
+              NOTE: If you report a game that weren't played the same day you 
+              MUST notify the NQR Crew about that. <br>
+              <br>
+              If by some reason this don't work you can send an e-mail to info@nqr.nu 
+              containing:<br>
+              1. The Name of the clans that were playing.<br>
+              2. What maps that were played and the result for each clan.<br>
+              3. Attach screenshots in GIF or JPG format for each map. <br>
+              4. The Date the game was played. <br>
+              <br>
+              <hr noshade color="#E6E6E6" width="98%">
+              <br>
+              <span class="date"> Theese rules are based on the Smackdown league’s 
+              rules-section and much have been taken directly from their rules 
+              page and some has been edited to fit the 
+              Nations Quake Rank              rules section. Many thanks to Smackdown and it’s staff for authorizing 
+              us to use theese rules. http://www.challenge-smackdown.com/hq/rules/. 
+              </span> 
+          </td>
+	</tr>
+	</table>
+	
+	</td>
+	
+	<td width="5px" height="150px" background="gfx/bg-right.gif">&nbsp;
+	 
+	</td>
+	
+	<td width="150px" valign="top">
+		<table border="0" width="100%" cellspacing="1" cellpadding="0">
+	<tr>
+		<td width="5%">&nbsp;
+		
+		</td>
+		<td bgcolor="#C4D1D7">
+		&nbsp;<b>#</b>
+		</td>
+		<td bgcolor="#C4D1D7">
+		&nbsp;<b>Team</b>
+		</td>
+		<td bgcolor="#C4D1D7">
+		&nbsp;<b>PTS</b>
+		</td>
+		<td width="5%">&nbsp;
+		
+		</td>
+	</tr>
+	<tr>
+		<td width="5%">&nbsp;</td>
+		<td bgcolor="">1</td>
+		<td bgcolor=""><a href="claninfo/58.html">The Axe Men</a></td>
+		<td bgcolor="">5198</td>
+		<td width="5%">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="5%">&nbsp;</td>
+		<td bgcolor="#DDE5E9">2</td>
+		<td bgcolor="#DDE5E9"><a href="claninfo/53.html">Headcharge</a></td>
+		<td bgcolor="#DDE5E9">5035</td>
+		<td width="5%">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="5%">&nbsp;</td>
+		<td bgcolor="">3</td>
+		<td bgcolor=""><a href="claninfo/6.html">Firing Squad</a></td>
+		<td bgcolor="">4116</td>
+		<td width="5%">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="5%">&nbsp;</td>
+		<td bgcolor="#DDE5E9">4</td>
+		<td bgcolor="#DDE5E9"><a href="claninfo/70.html">Hard Guns Crew</a></td>
+		<td bgcolor="#DDE5E9">3870</td>
+		<td width="5%">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="5%">&nbsp;</td>
+		<td bgcolor="">5</td>
+		<td bgcolor=""><a href="claninfo/21.html">TRASH</a></td>
+		<td bgcolor="">3849</td>
+		<td width="5%">&nbsp;</td>
+	</tr>
+	</table>
+
+<br>
+	
+<table border="0" width="100%" cellspacing="1" cellpadding="0">
+  <tr> 
+    <td width="5%">&nbsp; </td>
+    <td bgcolor="#C4D1D7"> &nbsp;<b>#</b> </td>
+    <td bgcolor="#C4D1D7" colspan="2"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><b>Player</b></td>
+          <td align="right"><b>AVG. FRGS</b> </td>
+        </tr>
+      </table>
+    </td>
+    <td width="5%">&nbsp; </td>
+  </tr>
+  	<tr>
+		<td width="5%">&nbsp;</td>
+		<td bgcolor="">1</td>
+		<td bgcolor="">blixem</td>
+		<td v align="center" bgcolor="">70.8</td>
+		<td width="5%">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="5%">&nbsp;</td>
+		<td bgcolor="#DDE5E9">2</td>
+		<td bgcolor="#DDE5E9">Fox</td>
+		<td v align="center" bgcolor="#DDE5E9">70.3</td>
+		<td width="5%">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="5%">&nbsp;</td>
+		<td bgcolor="">3</td>
+		<td bgcolor="">hib</td>
+		<td v align="center" bgcolor="">68.4</td>
+		<td width="5%">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="5%">&nbsp;</td>
+		<td bgcolor="#DDE5E9">4</td>
+		<td bgcolor="#DDE5E9">riker</td>
+		<td v align="center" bgcolor="#DDE5E9">68.4</td>
+		<td width="5%">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="5%">&nbsp;</td>
+		<td bgcolor="">5</td>
+		<td bgcolor="">reppie</td>
+		<td v align="center" bgcolor="">68.1</td>
+		<td width="5%">&nbsp;</td>
+	</tr>
+</table><hr noshade color=#C3CDD2 width=90%>	<table border="0" width="100%" cellspacing="1" cellpadding="0">
+	<tr>
+		<td width="5%">&nbsp;
+		
+		</td>
+		
+    <td valign="top"> <b>Played games: </b>
+      431      <br>
+		<b>Clans:</b> 72<br>
+		<b>Players:</b> 644<br><br>
+		<b>Most victories:</b> <a href="claninfo/53.html">HC</a> (26)<br>
+      <b>Most defeats:</b> <a href="claninfo/52.html">goh</a> (36)<br>
+		</td>
+		<td width="5%">&nbsp;
+		
+		</td>
+	</tr>
+	</table>	</td>	
+	
+</tr>
+<tr>
+
+	<td width="150px" valign="top">&nbsp;
+	
+	</td>
+
+	<td width="5px" height="21px" background="gfx/bg-left.gif">&nbsp;
+	 
+	</td>
+	<td width="448px" height="21px" bgcolor="#FFFFFF">
+	<center><span class="copy">HTML/PHP by Cero. HTML/Graphics by Madmax</span></center>
+	</td>
+	<td width="5px" height="21px" background="gfx/bg-right.gif">&nbsp;
+	 
+	</td>
+	
+	<td width="150px" valign="top">&nbsp;
+	
+	</td>
+	
+</tr>
+</table>
+
+</body>
+</html>

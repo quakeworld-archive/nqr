@@ -1,0 +1,294 @@
+// *****************************
+// *    Milton's Config-File   *
+// *         For Quake1        *
+// *           And QW          *
+// *****************************
+// File Name: m.cfg  
+// 1998 Joni Sivula. 
+
+// Unbindall
+
+unbindall
+
+// Bindings
+
+bind "1" "impulse 1"
+bind "2" "impulse 2"
+bind "3" "impulse 3"
+bind "4" "impulse 4"
+bind "5" "impulse 5"
+bind "6" "impulse 6" 
+bind "7" "impulse 7"
+bind "8" "impulse 8"
+bind "`" "toggleconsole"
+bind "F7" "mp3_prev"
+bind "F8" "mp3_next"
+bind "F12" "screenshot"
+bind "PAUSE" "pause"
+bind "SPACE" "+grenade"
+bind "SHIFT" "+safefire"
+bind "TAB" "+showscores"
+bind "ESCAPE" "togglemenu"
+bind "w" "+forward"
+bind "a" "+moveleft"
+bind "d" "+moveright"
+bind "s" "+back"
+
+// Say Scripts
+
+bind "F9" "messagemode2"
+bind "t" "messagemode"
+
+// Qizmo Controls
+
+bind "uparrow" "say proxy:menu up"
+bind "downarrow" "say proxy:menu down"
+bind "leftarrow" "say proxy:menu left"
+bind "rightarrow" "say proxy:menu right"
+bind "enter" "say proxy:menu select"
+bind "del" "say proxy:menu delete"
+bind "home" "say proxy:menu home"
+bind "end" "say proxy:menu end"
+bind "pgup" "say proxy:menu pgup"
+bind "pgdn" "say proxy:menu pgdn"
+bind "backspace" "say proxy:menu back"
+bind "ins" "say proxy:menu help"
+bind "pause" "say proxy:menu"
+
+// Video Settings
+
+cl_sbar "0"
+cl_maxfps "77"
+cl_deadbodyFilter "1"
+cl_gibfilter "1"
+cl_muzzleflash "0"
+cl_bonusflash "0"
+cl_model_bobbing "0"
+cl_gameclock "3"
+cl_gameclock_y "-.1"
+r_fullbright "0"
+r_fullbrightSkins "1"
+r_drawviewmodel "0"
+r_explosiontype "3"
+r_explosionlight "0"
+r_drawflame "0"
+r_lightflicker "0"
+r_rocketlight "1"
+r_rockettrail "6"
+r_grenadetrail "0" 
+r_powerupGlow "1"
+r_netgraph "0"
+r_shadows "0"
+r_lightmap "0"
+r_wateralpha "1"
+r_novis "0"
+r_farclip "10000"
+r_fastsky "1"
+r_skycolor "0"
+v_contentblend "0"
+v_damagecshift "0"
+v_dlightcshift "0"
+v_pentcshift "0.1"
+v_quadcshift "0.4"
+v_ringcshift "0.1"
+v_suitcshift "0.2"
+v_viewheight "4"
+scr_conspeed "34568"
+scr_conalpha "0.5"
+scr_scoreboard_teamsort "0"
+scr_drawVFrags "1"
+scr_centerSbar "0"
+scr_compacthud "0"
+scr_scalemenu "1"
+sshot_format "jpg"
+image_jpeg_quality_level "100"
+show_fps "0"
+vid_mode "3"
+viewsize "100"
+gamma "0.6"
+fov "125"
+_windowed_mouse "0"
+// d_mipscale "40"
+// d_mipcap "3"
+
+// GL Settings
+
+gl_contrast "1.5"
+gl_polyblend "1"
+gl_triplebuffer "1"
+gl_texturemode "gl_linear_mipmap_nearest"
+gl_playermip "0"
+gl_picmip "0"
+gl_subdivide_size "1024"
+gl_flashblend "1"
+gl_ztrick "1"
+gl_finish "1"
+gl_caustics "0"
+gl_part_lavasplash "0"
+gl_part_gunshots "0"
+gl_part_blood "0"
+gl_part_explosions "0"
+gl_part_trails "1"
+gl_part_spikes "0"
+gl_part_blobs "0"
+gl_part_telesplash "0"
+gl_max_size "2048"
+gl_fb_models "1"
+gl_fb_bmodels "1"
+gl_hwblend "0"
+gl_shaftlight "0.5"
+
+// Ezquake settings
+
+r_skyname ""
+cl_phyfps "0"
+cl_fakeshaft "0"
+r_tracker_frags "2"
+r_tracker_messages "6"
+r_tracker_scale "1"
+r_tracker_align_right "0"
+r_tracker_x "35"
+r_tracker_y "280"
+r_tracker_frame_color "0 0 0 0"
+r_tracker_time "10"
+r_tracker_streaks "0"
+r_tracker_flags "1"
+
+cl_parsefrags "0"
+cl_loadfragfiles "1"
+con_fragmessages "1"
+
+cl_fakeshaft "0.6"
+
+// Mouse Settings
+
++mlook
+m_filter "1"
+m_side "0.8"
+m_forward "1"
+m_yaw "0.001"
+m_pitch "0.001"
+sensitivity "120"
+lookstrafe "0"
+lookspring "0"
+bind "MOUSE1" "+rocket"
+bind "MOUSE2" "+jump"
+bind "MOUSE3" "+shaft"
+bind "MOUSE4" "+ssg"
+bind "MOUSE5" "+shotgun"
+
+// Connection Settings
+
+cl_nodelta "0"
+rate "100000"
+
+// Joystick Settings
+
+joystick "0"
+
+// Speed Settings
+
+cl_backspeed "320"
+cl_forwardspeed "320"
+cl_upspeed "320"
+cl_sidespeed "320"
+cl_anglespeedkey "1.5"
+cl_rollspeed "10000"
+v_centerspeed "0"
+
+// Player Settings
+
+name "^m^i^l^t^o^n$[SSC$]"
+color "4 0"
+topcolor "4"
+bottomcolor "0"
+team "ssc"
+skin "milton"
+teamskin ""
+teamquadskin ""
+teampentskin ""
+teambothskin ""
+teamcolor "off"
+enemyskin "enemy"
+enemyquadskin "enemy"
+enemypentskin "enemy"
+enemybothskin "enemy"
+enemycolor "off"
+
+// Sound Settings
+
+s_khz "44"
+s_ambientlevel "0"
+cl_staticSounds "0"
+volume "0.3"
+mp3_volume "1"
+
+// Other Settings
+
+cl_bob "0"
+cl_bobcycle "1"
+cl_bobup "0"
+cl_rollangle "0.0"
+cl_shownet "0"
+cl_crossx "0"
+cl_crossy "2"
+cl_chasecam "1"
+cl_chatmode "2"
+cl_smartjump "0"
+v_kickroll "0"
+v_kickpitch "0"
+v_contentblend "0"
+cl_hudswap "1"
+con_notifytime "3"
+con_notifylines "10"
+showpause "0"
+showturtle "0"
+noaim "1"
+noskins "0"
+crosshair "7"
+crosshairimage ""
+crosshairsize "0.5"
+crosshaircolor "0 255 0"
+b_switch 2
+w_switch 2
+msg "1"
+qizmo_dir "/usr/games/quake/qizmo"
+
+// Aliases
+
+alias +grenade "weapon 6 2 1; +attack"
+alias -grenade "weapon 2 1; -attack"
+alias +shaft "weapon 8 2 1; +attack"
+alias -shaft "weapon 2 1; -attack"
+alias +rocket "weapon 7; +attack"
+alias -rocket "weapon 2 1; -attack"
+alias +shotgun "weapon 2; +attack"
+alias -shotgun "weapon 2 1; -attack"
+alias +ssg "weapon 3 2 1; +attack"
+alias -ssg "weapon 2 1; -attack"
+alias +axe "weapon 1; +attack"
+alias -axe "weapon 2 1; -attack"
+alias +safefire "weapon 5 3 2 4 1; +attack"
+alias -safefire "weapon 2 1; -attack"
+alias proxyautoexec "exec ../cfg/connects.cfg; exec ../cfg/tvs_tp.cfg
+//; exec ../cfg/tpmessages.cfg"
+alias cfg "exec ../cfg/m.cfg"
+alias noscripts "exec ../cfg/noscripts.cfg"
+alias tvs "team tvs; color 0 11; name [tVS]Milton; skin tvs-mil; exec ../cfg/tvs_tp.cfg"
+
+// Exec
+
+proxyautoexec
+
+// Config Title
+
+echo " _____________________________ "
+echo "|Milton's Config-File         |"
+echo "|Version 2.3                  |"
+echo "|=============================|"
+echo "|Maker:   Joni Siwula         |"
+echo "|Date:    Sunday, 16.3.2008   |"
+echo "|Contact:                     |"
+echo "|Icq:     36215001            |"				  
+echo "|Email:   milton_fi@yahoo.com |"
+echo "|_____________________________|"

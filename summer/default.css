@@ -1,0 +1,40 @@
+body { scrollbar-face-color: #E0D3A9; 
+  scrollbar-shadow-color: #E0D3A9;
+  scrollbar-highlight-color: #E0D3A9;
+  scrollbar-3dlight-color: #E0D3A9;
+  scrollbar-darkshadow-color: #E0D3A9;
+  scrollbar-track-color: #F8EFD1;
+  scrollbar-arrow-color: #000000; }
+
+a:link { text-decoration: none; color: #528696; font-weight: none }
+a:visited { text-decoration: none; color: #528696; font-weight: none }
+a:hover { text-decoration: underline; color: #9B6F6F; font-weight: none }
+a:active { text-decoration: none; color: #9B6F6F; font-weight: none } 
+
+td { font-family: Verdana, Arial, Helvetica; 
+  font-size: 8pt;
+  font-weight: none;
+  color: #333333;
+  line-height: 13px;
+  text-indent: 0px; }
+
+.input { font-family: verdana,sans-serif; font-size: 8pt; }
+
+.button { font-family: verdana,sans-serif; font-size: 8pt; }
+
+.table {
+  font-weight: bold; }
+
+.date {
+  color: #8CBF85; }
+ 
+.c {
+  color: #A5C6D0; }
+ 
+.latest {
+  color: #153F0F; }
+ 
+.topic {
+  font-size: 10pt;
+  font-weight: bold;
+  color: #333333; }

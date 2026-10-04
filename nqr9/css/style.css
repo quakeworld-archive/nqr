@@ -1,0 +1,152 @@
+CSS - http://www.nqr.nu/nqr8/
+http://www.nqr.nu/nqr8/
+http://www.nqr.nu/nqr8/css/style.css
+
+FONT { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt;
+ font-weight: none; color: #333333 }
+
+TD { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt;
+ font-weight: none; color: #333333; line-height: 13px; text-indent: 0px}
+
+DIV { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt;
+ font-weight: none; color: #333333 }
+
+.table { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt;
+ font-weight: bold; color: #333333 line-height: 13px; text-indent: 0px}
+
+.date { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; 
+ font-weight: none; color: #3563B5; line-height: 13px; text-indent: 0px}
+ 
+.c { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt;
+ font-weight: none; color: #A5C6D0; line-height: 13px; text-indent: 0px}
+ 
+.latest { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt;
+ font-weight: none; color: #153F0F; line-height: 13px; text-indent: 0px}
+ 
+.topic { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;
+ font-weight: bold; color: #333333; line-height: 13px; text-indent: 0px}
+
+.input { font-family: verdana,sans-serif; font-size: 9px; border-style: solid; border-width: 1px; border-color: #000000; color: #000000; background-color: #B4CDFA; }
+
+.button { font-family: verdana,sans-serif; font-size: 10px; border-style: solid; border-width: 1px; border-color: #000000; color: #FFFFFF; background-color: #3664B7; font-weight: bold; }
+
+A:link { text-decoration: none; color: #1449AB; font-weight: none }
+
+A:visited { text-decoration: none; color: #1449AB; font-weight: none }
+
+A:hover { text-decoration: underline; color: #9B6F6F; font-weight: none }
+
+A:active { text-decoration: none; color: #9B6F6F; font-weight: none } 
+
+body { scrollbar-face-color: #E0D3A9; 
+scrollbar-shadow-color: #E0D3A9;
+scrollbar-highlight-color: #E0D3A9;
+scrollbar-3dlight-color: #E0D3A9;
+scrollbar-darkshadow-color: #E0D3A9;
+scrollbar-track-color: #F8EFD1;
+scrollbar-arrow-color: #000000; }
+
+
+.nag  { border: #E2E2E2 1px solid;
+        background-color: #ffffff;
+        background-image: url('../gfx/window_bg.gif');
+        background-repeat: repeat-x; }
+
+.nag1 { font-size: 11px; font-family: tahoma; color: #3664B7; }
+
+/**********************************************
+
+ HEADERS
+
+**********************************************/
+
+
+
+.nag  { border: #E2E2E2 1px solid;
+        background-color: #ffffff;
+        background-image: url('../gfx/window_bg.gif');
+        background-repeat: repeat-x; }
+
+
+.nag1 { font-size: 11px;       
+       font-family: tahoma;
+       color: #A33F24;
+       font-weight: bold;
+       padding: 0px 4px 0px 7px;
+       }
+.nag1 a:link { font-size: 9px;color: #6E9CEE;text-decoration: none }
+.nag1 a:visited { font-size: 9px;color: #6E9CEE;text-decoration: none }
+.nag1 a:hover { color: #90B4F3; text-decoration: underline; }
+
+
+.nag2 {
+       font-size: 12px;       
+       font-family: tahoma;
+       color: #C1D1EF;
+       border-left: #C1D1EF 4px solid;
+       padding: 0px 4px 0px 7px;
+       }
+
+
+
+.nag3 { font-size: 11px;       
+       font-family: tahoma;
+       color: #93A1AD;
+       border-left: #93A1AD 4px solid;
+       font-weight: bold;
+       padding: 0px 4px 0px 7px;
+        }  
+.nag3 a:visited { font-size: 9px;color: #6E9CEE;text-decoration: none }
+.nag3 a:hover { color: #90B4F3; text-decoration: underline; }
+
+.nag4 { font-size: 12px;       
+       font-family: tahoma;
+       color: #BB2424;
+       border-left: #BB2424 4px solid;
+       font-weight: bold;
+       padding: 0px 4px 0px 7px;
+       }  
+.nag4 a:link { font-size: 9px; color: #6E9CEE; text-decoration: none }
+.nag4 a:visited { font-size: 9px; color: #6E9CEE; text-decoration: none }
+.nag4 a:hover { color: #BB2424; text-decoration: underline; }
+
+
+nag5 {
+        font-size: 10px;
+        font-family: tahoma;
+        color: #777777;
+
+}
+.nag5 a:link { font-size: 9px; color: #6E9CEE; text-decoration: none }
+.nag1 a:visited { font-size: 9px; color: #6E9CEE; text-decoration: none }
+.nag5 a:hover { color: #DB5454; text-decoration: underline; }
+
+
+
+
+#shd {  background: url('../gfx/okienko_cien.png') no-repeat; }
+
+
+
+
+
+
+
+TD.style1 { background-color: #8CBF85; }
+TD.style2 { background-color: #CAD8F1; }
+TD.style3 { background-color: #B4CDFA; }
+TABLE.style1 { background-color: #8CBF85; }
+TABLE.style2 { background-color: #CAD8F1; }
+TABLE.style3 { background-color: #B4CDFA; }
+tr.style1 { background-color: #8CBF85; }
+tr.style2 { background-color: #CAD8F1; }
+tr.style3 { background-color: #B4CDFA; }
+
+
+td.style5 { background-color: #FFFFFF; }
+tr.style5 { background-color: #FFFFFF; }
+table.style5 { background-color: #FFFFFF; }
+td.style4 { background-color: #DEF2F8; }
+tr.style4 { background-color: #DEF2F8; }
+table.style4 { background-color: #DEF2F8; }
+
